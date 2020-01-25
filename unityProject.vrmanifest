@@ -5,7 +5,7 @@
       "app_key": "application.generated.unity.holonspacedemo.exe",
       "launch_type": "url",
       "url": "steam://launch/",
-      "action_manifest_path": "C:\\Users\\Root Interactive\\Documents\\Unity\\botanica-magnolia\\actions.json",
+      "action_manifest_path": "C:\\Users\\Root Interactive\\Documents\\Unity\\hookathon\\actions.json",
       "strings": {
         "en_us": {
           "name": "botanica-magnolia [Testing]"
