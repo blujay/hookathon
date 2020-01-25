@@ -2,7 +2,7 @@
   "source": "Unity",
   "applications": [
     {
-      "app_key": "application.generated.unity.holonspacedemo.exe",
+      "app_key": "application.generated.unity.botanicamagnolia.exe",
       "launch_type": "url",
       "url": "steam://launch/",
       "action_manifest_path": "C:\\Users\\Root Interactive\\Documents\\Unity\\hookathon\\actions.json",
