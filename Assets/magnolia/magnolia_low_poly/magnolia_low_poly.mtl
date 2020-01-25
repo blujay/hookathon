@@ -1,0 +1,67 @@
+
+newmtl FlatFFFFFFd0f7c375-f3b5-45e9-b25a-7a9f51b338a3
+Kd  01 01 01
+Ks  00 00 00
+Ka  00 00 00
+d  01
+Ns  00
+illum 0
+map_Kd d0f7c375-f3b5-45e9-b25a-7a9f51b338a3.png
+
+
+
+
+newmtl Standard8C7E48
+Kd  0.5490196 0.49411764 0.28235296
+Ks  00 00 00
+Ka  00 00 00
+d  01
+Ns  00
+illum 2
+
+
+
+
+newmtl Standard6E865B
+Kd  0.4313725 0.52549024 0.35686276
+Ks  00 00 00
+Ka  00 00 00
+d  01
+Ns  00
+illum 2
+
+
+
+
+newmtl StandardFFDBDB
+Kd  01 0.8588235 0.8588235
+Ks  00 00 00
+Ka  00 00 00
+d  01
+Ns  00
+illum 2
+
+
+
+
+newmtl Standard842D37
+Kd  0.51764704 0.1764706 0.21568624
+Ks  00 00 00
+Ka  00 00 00
+d  01
+Ns  00
+illum 2
+
+
+
+
+newmtl Standard702234
+Kd  0.4392157 0.13333335 0.20392158
+Ks  00 00 00
+Ka  00 00 00
+d  01
+Ns  00
+illum 2
+
+
+
