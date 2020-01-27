@@ -220,9 +220,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 304066619}
-  - component: {fileID: 304066618}
   - component: {fileID: 304066620}
-  - component: {fileID: 304066621}
   m_Layer: 0
   m_Name: TextLoader
   m_TagString: Untagged
@@ -230,19 +228,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &304066618
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 304066617}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7847d7166bebbc0498f8c6ee86454228, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Source: {fileID: 4900000, guid: 48ba25e6f14c8364a829e01484c707b4, type: 3}
 --- !u!4 &304066619
 Transform:
   m_ObjectHideFlags: 0
@@ -269,31 +254,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8977d5f30df05fd48a448252bccbabd1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlanePrefab: {fileID: 0}
+  PlanePrefab: {fileID: 2879518342055168165, guid: 7a5ece5e927dfcc4c996ee45a5657bb2,
+    type: 3}
   Count: 0
-  SourceData: {fileID: 0}
+  SourceData: {fileID: 4900000, guid: 48ba25e6f14c8364a829e01484c707b4, type: 3}
   FieldNamesToDisplay: []
---- !u!114 &304066621
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 304066617}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 755a269af02c3d749813b1f064a330b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Images:
-  - {fileID: 2800000, guid: b766d4ac832bf2e4cacec25478c8e4f4, type: 3}
-  - {fileID: 2800000, guid: b5f7af815bd8a0549b0e68972066dc76, type: 3}
-  - {fileID: 2800000, guid: 648f8db552f90064ea09132df45d5fd8, type: 3}
-  - {fileID: 2800000, guid: 389926c297f59ba429605fe5ff7c2e6f, type: 3}
-  - {fileID: 2800000, guid: b4513848b35295240b5df4194a64195f, type: 3}
-  - {fileID: 2800000, guid: de028f8100393af42aaa835c9ac8a944, type: 3}
-  - {fileID: 2800000, guid: 26af54ee355b14a43b1e5e1b0b539994, type: 3}
-  - {fileID: 2800000, guid: 800acd258e71a314881d47a06100cc23, type: 3}
+  ImageFolderPath: 
+  testKey: 
 --- !u!1 &831230957
 GameObject:
   m_ObjectHideFlags: 0
