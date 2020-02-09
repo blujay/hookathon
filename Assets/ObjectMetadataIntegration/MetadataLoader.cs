@@ -16,7 +16,6 @@ public static class MetadataLoader
     public const char cSep = '|';
     public const string sSep = "|";
     
-
     public static DataTable LoadCSV(TextAsset source, int primaryKeyColumn = 0, char separator = cSep, string tableName = default, bool preview = true)
     {
         // Create the returned table, name it after the source TextAsset if a tableName is not provided
@@ -75,6 +74,7 @@ public static class MetadataLoader
             Table.Preview();
         }
 
+        Debug.Log($"{Table.Rows.Count} rows loaded from {source.name}");
         return Table;
     }
 
@@ -135,7 +135,7 @@ public static class MetadataLoader
     }
 
     // An extension method that takes a row and returns a dictionary of selected values, using column names as keys
-    public static Dictionary<string, object> ToDictionary(this DataRow row, List<DataColumn> returnColumns)
+    public static Dictionary<string, object> ToDictionary(this DataRow row, DataColumnCollection returnColumns)
     {
         Dictionary<string, object> retval = new Dictionary<string, object>();
         for(int i = 0; i < returnColumns.Count; i++)

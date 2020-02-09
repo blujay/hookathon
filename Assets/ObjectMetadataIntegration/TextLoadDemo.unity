@@ -222,7 +222,7 @@ GameObject:
   - component: {fileID: 304066619}
   - component: {fileID: 304066620}
   m_Layer: 0
-  m_Name: TextLoader
+  m_Name: ObjectLoader
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -254,13 +254,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8977d5f30df05fd48a448252bccbabd1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlanePrefab: {fileID: 2879518342055168165, guid: 7a5ece5e927dfcc4c996ee45a5657bb2,
+  PlanePrefab: {fileID: 3532505833479828307, guid: 7a5ece5e927dfcc4c996ee45a5657bb2,
     type: 3}
   Count: 0
-  SourceData: {fileID: 4900000, guid: 48ba25e6f14c8364a829e01484c707b4, type: 3}
+  SourceData: {fileID: 4900000, guid: 1d00585067f865e4499b5503178af852, type: 3}
   FieldNamesToDisplay: []
   ImageFolderPath: 
-  testKey: 
+  testKeys:
+  - 522
+  - 4
+  - 523
 --- !u!1 &831230957
 GameObject:
   m_ObjectHideFlags: 0
