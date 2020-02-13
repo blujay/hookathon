@@ -56,12 +56,13 @@ public class SpawnPlanes : MonoBehaviour
         string filename = metadataRecord[fileNameField].ToString();
         string filePath = textureDirPath + "\\" + filename;
         spawnObject.SetTexture(filePath);
+        spawnObject.SetMetadata(metadataRecord);
     }
 
 
     public void Test()
     {
-        //
+
         DataTable table = MetadataLoader.LoadCSV(SourceData);
 
         int[] testFields = { 1, 2 };

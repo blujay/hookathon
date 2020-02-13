@@ -4,6 +4,7 @@ using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Networking;
+using System.Data;
 using System.Linq;
 
 /// <summary>
@@ -22,13 +23,32 @@ public class MetaImage : MonoBehaviour
     private Text text;
 
     public string TextureUri;
+    public DataRow DataRow { get; protected set; }
 
-    public void SetMetadata(Dictionary<string, object> metadata, string separator = ": ")
+    //public void SetMetadata(Dictionary<string, object> metadata, string separator = ": ")
+    //{
+    //    List<string> formatted = (from KeyValuePair<string, object> kvp in metadata
+    //                              select string.Join(separator, kvp.Key, kvp.Value)).ToList();
+    //    string joined = string.Join("\n", formatted);
+    //    text.text = joined;
+    //}
+
+    public void SetMetadata()
     {
-        List<string> formatted = (from KeyValuePair<string, object> kvp in metadata
-                                  select string.Join(separator, kvp.Key, kvp.Value)).ToList();
-        string joined = string.Join("\n", formatted);
-        text.text = joined;
+        List<string> fields = new List<string>();
+        for (int i = 0; i < DataRow.ItemArray.Length; i++)
+        {
+            fields.Add(DataRow.ItemArray[i].ToString());
+        }
+        string joined = string.Join("\n", fields);
+        Text.text = joined;
+
+    }
+
+    public void SetMetadata(DataRow metadata)
+    {
+        DataRow = metadata;
+        SetMetadata();
     }
 
     public IEnumerator SetTexture()
